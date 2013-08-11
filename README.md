@@ -28,3 +28,5 @@ Demo
 ____
 
 ![Alt Demo](demo.png)
+
+You can view [the demo here.](demo.html "Demo").
