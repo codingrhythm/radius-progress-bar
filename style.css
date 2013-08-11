@@ -1,0 +1,161 @@
+body{margin: 0;padding: 0;font-family:Helvetica, Arial, sans-serif;font-size: 14px;color:#111;}
+
+li,ul{margin: 0;padding: 0}
+.list-skills li{float: left;margin:40px 10px 0;position: relative;list-style: none;}
+.list-skills li .label{position: absolute;top: 40px;left: 0;text-align: center;font-size: 14px;line-height: 1.5em;width: 100%}
+.list-skills li .label small{font-size: 12px;color: #666;}
+
+.radius-progress{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 6px solid #ddd;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.loader-bg
+{
+    width: 128px;
+    height: 128px;
+    position: relative;
+    margin: -6px 0 0 -6px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.spiner-holder-1
+{
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+    background: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.spiner-holder-2
+{
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.loader-spiner
+{
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    border: 6px solid #1f6c9f;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}  
+  .animate-0-25-a
+{
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-0-25-b
+{   
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-25-50-a
+{
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-25-50-b
+{
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-50-75-a
+{
+    -webkit-transform:rotate(270deg);
+    -moz-transform:rotate(270deg);
+    -o-transform:rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-50-75-b
+{
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin:100% 100%;
+}
+.animate-75-100-a
+{
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-75-100-b
+{
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+} 
