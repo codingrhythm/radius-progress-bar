@@ -17,6 +17,13 @@ _____
 7. Done!
 
 
+A complete settings will be something like this
+
+```
+<div class="radius-progress" data-current-progress="0" data-progress="80" data-value="100" data-unit="%"><div class="label">Radius Progress<br/><small></small></div></div>
+```
+
+
 Demo
 ____
 
