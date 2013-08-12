@@ -37,7 +37,7 @@ the code is
 if ($(this).attr('completed') == 'yes' || $(this).attr('working') == 'yes') return;
 ```
 
-the `completed` attribute tells you if the animation has already been played
+the `completed` attribute tells you if the animation has already been played, so you don't need to play it again
 
 the `working` attribute tells you if the animation is currently playing
 
