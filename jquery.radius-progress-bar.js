@@ -44,6 +44,7 @@ $.fn.renderProgress = function(progress)
 }
 
 $.fn.raduisProgressBar = function(){
+
     $(this).attr('working','yes');
     if ($(this).attr('initiliazed') != 'yes'){
         var bg = $('<div class="loader-bg"></div>');
@@ -77,8 +78,7 @@ $.fn.raduisProgressBar = function(){
 
 
 $(function(){
-    $('.radius-progress').each(function(){
-        if ($(this).attr('completed') == 'yes' || $(this).attr('working') == 'yes') return;
+    $('.radius-progress[data-auto-play=yes]').each(function(){
         $(this).raduisProgressBar();
     });
 })
